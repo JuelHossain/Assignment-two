@@ -1,0 +1,120 @@
+/* design for tablet */
+@media screen and (min-width: 768px) and (max-width: 1048px) {
+  /* header section start here  */
+
+  header {
+    margin: 20px auto;
+  }
+  header .logo {
+    flex-basis: 50%;
+  }
+  header nav {
+    flex-basis: 50%;
+  }
+  header .logo h1 {
+    padding-top: 4px;
+    font-size: 20px;
+  }
+  header nav a {
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 600;
+  }
+
+  /* header section end here  */
+  main {
+    padding-top: 60px;
+  }
+
+  /* hero text division  */
+  .hero .hero-text {
+    flex-basis: 50%;
+  }
+  .hero .hero-text h1 {
+    font-size: 37px;
+  }
+  .hero .hero-text p {
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-right: 10%;
+  }
+  .button {
+    margin-top: 7px;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 6px 17px;
+    border-radius: 30px;
+  }
+  .hero .hero-text a span {
+    margin-right: 3px;
+  }
+
+  /* hero image division  */
+
+  /* hero banner end  */
+
+  /* sponsors section start  */
+
+  .sponsors {
+    margin: 25px 25px;
+    padding: 17px;
+  }
+  .sponsors img {
+    height: 23px;
+  }
+  /* collection section start here  */
+
+  .collections {
+    margin: 35px 0;
+  }
+  .collections h2 {
+    font-size: var(--h3);
+  }
+  .products-section {
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 30px;
+  }
+  .products {
+    padding: 10px;
+    border-radius: 5px;
+    gap: 6px;
+  }
+  .products img {
+    width: 100%;
+  }
+  .products h3 {
+    font-size: var(--h3);
+    text-transform: capitalize;
+  }
+  .products h4 {
+    font-size: var(--h2);
+    font-weight: 300;
+  }
+  .products p {
+    padding-right: 15%;
+  }
+  .products span .fas {
+    color: orange;
+  }
+  .products span p {
+    display: inline-block;
+    margin-left: 2%;
+  }
+  /* last section start here  */
+  .last-section {
+    margin: 75px;
+  }
+  .last-section .red-label {
+    height: 300px;
+  }
+
+  .last-section article .text h2 {
+    font-size: 40px;
+  }
+  .last-section article .text p {
+    font-size: var(--h4);
+  }
+}
