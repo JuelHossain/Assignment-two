@@ -264,9 +264,9 @@ footer {
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-color: #0a0826;
+  background-color: #020009;
   text-align: center;
-  color: #ffffff;
+  color: #6f6161;
   text-transform: capitalize;
 }
 footer p {
@@ -281,5 +281,5 @@ footer span {
   padding: 10px;
 }
 footer span a {
-  color: #ffffff;
+  color: #3f3434;
 }
